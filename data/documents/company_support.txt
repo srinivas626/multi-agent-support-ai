@@ -1,0 +1,36 @@
+Company VPN Support Guide
+
+VPN Connection Issue
+
+If a user cannot connect to the company VPN, first verify that the user has an active internet connection.
+
+Step 1:
+Check whether the user's computer can access normal websites.
+
+Step 2:
+Verify that the VPN client is installed and running.
+
+Step 3:
+Verify that the user is using the correct VPN server address.
+
+Step 4:
+Restart the VPN client.
+
+Step 5:
+If the issue continues, restart the computer.
+
+Step 6:
+If the VPN still does not connect, create a support ticket with the following information:
+- Username
+- Computer name
+- VPN server
+- Error message
+- Time of failure
+
+VPN Password Reset
+
+Users who forget their VPN password should contact the IT support team. Support engineers should not request or store the user's password.
+
+VPN Security
+
+Users must not share VPN passwords with support engineers or other employees.
