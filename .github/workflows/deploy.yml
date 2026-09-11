@@ -40,5 +40,5 @@ jobs:
               "docker pull ${{ secrets.ECR_REPOSITORY }}:latest",
               "docker stop app || true",
               "docker rm app || true",
-              "docker run -d --name app --restart always -p 8000:8000 -e AWS_REGION=${{ secrets.AWS_REGION }} -e BEDROCK_MODEL_ID=us.anthropic.claude-haiku-4-5-20251001-v1:0 ${{ secrets.ECR_REPOSITORY }}:latest"
+              "docker run -d --name app --restart always -p 8000:8000 -e AWS_REGION=${{ secrets.AWS_REGION }} -e BEDROCK_MODEL_ID=us.anthropic.claude-sonnet-4-5-20250929-v1:0 ${{ secrets.ECR_REPOSITORY }}:latest"
             ]'
